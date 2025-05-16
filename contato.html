@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Fiel Atleta</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+  <header>
+    <img src="img/Fiel Atleta.png" alt="Logo">
+    <h1>Fiel Atleta</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="devocionais.html">Devocionais</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="equipe.html">Equipe</a></li>
+        <li><a href="apoio.html">Como Apoiar</a></li>
+        <li><a href="outras localidades.html">Outras Localidades</a></li>
+        <li><a href="parcerias.html">Parcerias</a></li>
+        <li><a href="agenda.html">Agenda Semanal</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bg-light">
+      <h2>Fale Conosco</h2>
+      <p>Se você deseja nos contatar para dúvidas, apoio, sugestões ou parcerias, preencha o formulário ou utilize uma
+        das opções abaixo.</p>
+
+      <div class="galeria-container">
+        <!-- Card de Formulário -->
+        <div class="card">
+          <div class="caption">Envie uma Mensagem</div>
+          <div class="card-content" style="padding: 20px;">
+          <form action="https://formspree.io/f/xrbqjqwj" method="POST" class="form-contato">
+              <input type="hidden" name="_subject" value="Nova mensagem do site Fiel Atleta!">
+              <input type="hidden" name="_captcha" value="false">
+              <div class="form-group">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" required placeholder="Ex: João da Silva">
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required placeholder="seunome@email.com">
+              </div>
+
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="6" required
+                  placeholder="Escreva sua mensagem aqui..."></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="submit">Enviar Mensagem</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+        <!-- Card de Informações -->
+        <div class="card">
+          <div class="caption">Informações de Contato</div>
+          <div class="card-content" style="padding: 15px;">
+            <p><strong>Email:</strong> contato@fielatleta.com</p>
+            <p><strong>Telefone:</strong> (11) 99999-0000</p>
+            <p><strong>Instagram:</strong> @fielatleta</p>
+            <p><strong>Endereço:</strong> Rua da Esperança, 123<br>Cidade Cristã, SP</p>
+          </div>
+        </div>
+
+        <!-- Card de Redes Sociais -->
+        <div class="card">
+          <div class="caption">Nos Acompanhe</div>
+          <div class="card-content" style="padding: 15px;">
+            <p>Siga-nos para acompanhar cultos, treinos e eventos:</p>
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <link rel="stylesheet" href="script.js">
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fiel Atleta. Todos os direitos reservados.</p>
+  </footer>
+
+  
+</body>
+
+</html>
