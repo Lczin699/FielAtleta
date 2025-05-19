@@ -10,3 +10,4 @@ document.querySelector('form').addEventListener('submit', function (e) {
       this.reset();
     }, 1500);
   });
+  
