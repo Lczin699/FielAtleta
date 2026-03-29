@@ -90,6 +90,13 @@ p {
   font-size: 1.3rem;
 }
 
+/* Seção info-jogador */
+.info-jogador {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 colunas */
+  gap: 5px;
+}
+
 /* Seções com fundo */
 section {
   margin-bottom: 50px;
